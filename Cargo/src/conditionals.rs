@@ -11,4 +11,9 @@ pub fn run(){
     }else {
         println!("In the else block");
     }
+
+    //Shorthand if, can be used in place of ternary operator
+
+    let is_of_age = if age >= 21 { true } else { false };
+    println!("Is of Age: {}", is_of_age);
 }
